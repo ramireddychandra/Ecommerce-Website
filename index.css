@@ -1,0 +1,160 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+.hidden{
+    display: none;
+}
+.hero{
+    position: relative;
+    height:100vh;
+    width:100%;
+    background-color: rgb(132, 162, 239);
+    overflow: hidden;
+}
+nav{
+    width:85%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:black;
+}
+
+.detail{
+    margin-top:9%;
+    margin-left: 10%;
+}
+
+.detail h1{
+    font-size: 50px;
+    color:#251a1a;
+}
+span{
+    color:rgb(204, 100, 214);
+}
+
+.detail p{
+    margin-top:30px;
+    line-height: 30px;
+    color:rgb(75, 71, 71);
+    margin-bottom: 30px;
+}
+
+.detail a{
+    background-color: #212121;
+    padding:10px 15px;
+    color:white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.images{
+    position: absolute;
+    width:20%;
+    right: 300px;
+    top:30%;
+    height: 60%;
+}
+.images img{
+    position: absolute;
+    height:100%;
+    left:80%;
+    bottom: 20%;
+    transform: translateX(-50%);
+    transition :bottom 1s,left 1s;
+}
+
+.me{
+    width: 300px;
+    height: 400px !important;
+}
+.images:hover .me{
+    left: 200px;
+    
+
+ }
+.images:hover .shape{
+    bottom: 20px;
+
+}  
+
+.about-section{
+    background-color: aquamarine;
+    width:100%;
+    min-height:120vh;
+}
+.about-container{
+    position: relative;
+    width: 70%;
+    /* height:100%; */
+    margin:auto;
+    top: 70px;
+    display:flex;
+    justify-content: space-around;
+
+}
+.icon{
+    padding: 10px 20px;
+    margin:10px
+    } 
+
+
+.about-right{
+    width:550px;
+    font-size: 20px;
+}
+.edu,.skill{
+    box-shadow: 0px 3px 6px #00000029;
+    padding: 10px 20px;
+    margin-top: 15px;
+}
+
+.active{
+    background-color: black;
+    color:white;
+} 
+.skill-summary{
+    text-align: center;
+}
+
+.add-skill{
+    padding: 50px 50px;
+    position: absolute;
+    width:400px;
+    height:200px;
+    background-color: rgb(121, 172, 211);
+    top:30%;
+    left:30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+input.skillinput,.button{
+    padding:10px 15px;
+    border-radius: 5px;
+    border-color: white;
+
+}
+iframe{
+    height:100vh;
+    width: 100vw;
+}
+.button{
+    position: absolute;
+    right:0px;
+    top:0px;
+}
